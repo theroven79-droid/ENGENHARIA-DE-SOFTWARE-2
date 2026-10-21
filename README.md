@@ -1,5 +1,7 @@
 # Engenharia de Software 2 — Documentação de sistemas
 
+![Documentação](https://img.shields.io/badge/Tipo-Especifica%C3%A7%C3%A3o%20de%20requisitos-7957D5) ![Formato](https://img.shields.io/badge/Formato-DOCX-2B579A)
+
 Repositório com dois documentos Word de levantamento e especificação de requisitos. Os arquivos apresentam o modelo de documentação e as descrições de requisitos preenchidas para dois temas: aplicativo bancário e cadastro de receitas.
 
 ## Documentos
@@ -58,3 +60,39 @@ Os modelos ainda contêm campos vazios, exemplos e instruções de preenchimento
 Use os links da tabela de documentos para abrir ou baixar cada arquivo `.docx`. Para visualizar as tabelas e a formatação, abra o arquivo em um editor compatível com esse formato.
 
 Dentro dos documentos, os identificadores `RF`, `RNFR` e `RNFS` permitem localizar, respectivamente, os requisitos funcionais, os requisitos não funcionais relacionados e os requisitos não funcionais sistêmicos.
+
+---
+
+## Visão do processo de requisitos
+
+```mermaid
+flowchart LR
+    A["Contexto e público-alvo"] --> B["Objetivos e escopo"]
+    B --> C["Requisitos funcionais"]
+    C --> D["Requisitos não funcionais"]
+    D --> E["Análise das restrições"]
+    E --> F["Revisão da documentação"]
+```
+
+## Matriz de rastreabilidade documental
+
+| Categoria | Sistema bancário | Cadastro de receitas |
+|---|---|---|
+| Funcionalidades principais | Conta, autenticação, Pix, pagamentos, comprovante | Criar, listar, pesquisar, editar, remover |
+| Segurança / qualidade | Criptografia, LGPD, acesso e senha | Interface, armazenamento local, desempenho |
+| Entregável no repositório | [Modelo bancário](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema.docx) | [Modelo de receitas](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema_2.docx) |
+| Código-fonte de aplicativo | Não incluído | Não incluído |
+
+## Como estudar e reutilizar o material
+
+1. Abra um dos documentos Word acima em um editor compatível.
+2. Identifique **RF** (funcionais), **RNFR** (não funcionais relacionados) e **RNFS** (não funcionais sistêmicos).
+3. Relacione cada requisito ao problema de negócio, à entrada esperada e ao comportamento descrito.
+4. Antes de reutilizar como modelo, revise os campos ainda orientativos e o título de capa indicado nas observações.
+
+### Referências técnicas úteis
+
+- [ISO/IEC/IEEE 29148 — Engenharia de requisitos (visão do padrão)](https://www.iso.org/standard/72089.html)
+- [Guia do GitHub para documentação Markdown](https://docs.github.com/pt/get-started/writing-on-github)
+
+> **Escopo:** repositório de **documentação e estudo**, não uma aplicação implementada. Os requisitos representam especificações, não recursos disponíveis para execução.
