@@ -1,64 +1,60 @@
-# Engenharia de Software 2 — Documentação de Sistemas
+# Engenharia de Software 2 — Documentação de sistemas
 
-Acervo de dois documentos Word de levantamento e especificação de requisitos. O conteúdo disponível é documental: não há código de aplicação, scripts de instalação ou testes executáveis neste repositório.
+Repositório com dois documentos Word de levantamento e especificação de requisitos. Os arquivos apresentam o modelo de documentação e as descrições de requisitos preenchidas para dois temas: aplicativo bancário e cadastro de receitas.
 
-## Documentos disponíveis
+## Documentos
 
-| Documento | Conteúdo encontrado | Estado |
+| Arquivo | Conteúdo das seções de requisitos |
+|---|---|
+| [01-Modelo de Documentação de Sistema.docx](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema.docx) | Cadastro de conta, acesso, chave Pix, pagamento e compartilhamento de comprovante. |
+| [01-Modelo de Documentação de Sistema_2.docx](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema_2.docx) | Cadastro, listagem, busca, edição e exclusão de receitas. |
+
+## Aplicativo bancário
+
+O primeiro documento descreve os seguintes requisitos funcionais:
+
+| Identificador | Requisito | Descrição resumida |
 |---|---|---|
-| [01-Modelo de Documentação de Sistema.docx](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema.docx) | Requisitos de aplicativo bancário | RF-01 a RF-05 preenchidos; outras seções ainda têm instruções de modelo. |
-| [01-Modelo de Documentação de Sistema_2.docx](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema_2.docx) | Requisitos de cadastro e consulta de receitas | RF-01 a RF-05 preenchidos para receitas; a capa ainda identifica “Aplicativo Bancário”. |
+| RF-01 | Cadastrar conta | Informar nome completo, CPF, telefone e e-mail, além de criar uma senha com pelo menos dez caracteres, incluindo letras maiúsculas, minúsculas, números e caractere especial. |
+| RF-02 | Acessar a conta | Entrar com CPF e senha e aceitar os termos de acesso ao aplicativo. |
+| RF-03 | Adicionar chave Pix | Cadastrar uma chave para receber pagamentos por Pix. |
+| RF-04 | Escolher a forma de pagamento | Pagar por Pix, débito ou crédito em até cinco parcelas sem juros. |
+| RF-05 | Compartilhar pagamento | Compartilhar o comprovante de uma conta paga. |
 
-Os dois arquivos registram Kayky Gabriel Silvano Tomé no campo de grupo e uma versão 1.0 datada de 30/06/2026. Essa identificação do documento não elimina os campos ainda incompletos. Embora o repositório se chame Engenharia de Software 2, os rodapés dos modelos trazem “Engenharia de Software I”.
+As tabelas de requisitos não funcionais relacionados incluem criptografia, segurança do cadastro, conformidade com a LGPD, conexão com a internet, redefinição de senha após cinco tentativas de acesso e compartilhamento de comprovante em PDF.
 
-## Documento 1 — Aplicativo bancário
+A seção de requisitos não funcionais sistêmicos registra resposta rápida ao usuário, uso do sistema operacional Windows e conexão com a internet.
 
-| Identificador | Requisito descrito |
-|---|---|
-| RF-01 — Cadastrar conta | Nome completo, CPF, telefone, e-mail e senha de no mínimo dez caracteres com maiúsculas, minúsculas, caractere especial e números. |
-| RF-02 — Logar na conta | Acesso com CPF e senha e aceite de termos. O texto relacionado prevê redefinição de senha após cinco tentativas de login. |
-| RF-03 — Adicionar chave Pix | Cadastro de chave para recebimentos; o texto também menciona depósito em agência ou loteria. |
-| RF-04 — Forma de pagamento | Pagamento por Pix, débito ou crédito em até cinco parcelas sem juros. |
-| RF-05 — Compartilhar pagamento | Compartilhamento de comprovante; as restrições relacionadas citam PDF e proibição de captura da tela de compartilhamento. |
+## Cadastro de receitas
 
-As tabelas associadas registram exigências como criptografia, segurança, conformidade com a LGPD e conexão com a internet. Os requisitos sistêmicos preenchidos citam resposta rápida, Windows e uso de internet. São **requisitos escritos no documento**, sem implementação ou evidência de atendimento no repositório.
+As seções preenchidas do segundo documento descrevem:
 
-## Documento 2 — Receitas
+| Identificador | Requisito | Descrição resumida |
+|---|---|---|
+| RF-01 | Cadastrar receita | Informar título, ingredientes, modo de preparo e tempo estimado, com categorização da receita. |
+| RF-02 | Listar receitas | Exibir as receitas em lista ou grade, com miniatura, título e tempo de preparo; ordenar da mais recente para a mais antiga e permitir abrir os detalhes. |
+| RF-03 | Buscar e filtrar | Buscar pelo título e filtrar por categoria, com atualização dos resultados durante a digitação. |
+| RF-04 | Editar dados | Abrir o formulário com os dados atuais, confirmar as alterações e permitir substituir ou remover a imagem. |
+| RF-05 | Excluir receita | Solicitar confirmação antes da exclusão e retornar à listagem atualizada. |
 
-| Identificador | Requisito descrito |
-|---|---|
-| RF-01 — Cadastro de Receita | Criar receitas com título, ingredientes, modo de preparo, tempo estimado e categorias. |
-| RF-02 — Listagem do Repositório | Mostrar receitas em lista ou grade, com miniatura, título e tempo de preparo, da mais recente para a mais antiga, e abrir detalhes. |
-| RF-03 — Busca e Filtragem | Buscar por título, filtrar por categoria e atualizar os resultados enquanto o usuário digita. |
-| RF-04 — Edição de Dados | Carregar os valores atuais, confirmar alterações e permitir substituir ou remover a imagem. |
-| RF-05 — Exclusão de Item | Excluir com confirmação e retornar à listagem atualizada. |
+Os requisitos não funcionais sistêmicos desse documento tratam de:
 
-Os requisitos sistêmicos descrevem identidade visual minimalista em preto, branco e roxo; armazenamento local para uso sem internet; carregamento da lista e dos detalhes em menos de dois segundos; uma base de código para Android e iOS; e compressão de fotos antes do armazenamento.
+- Interface minimalista e de alto contraste, com preto, branco e destaques em roxo.
+- Armazenamento local para cadastrar e consultar receitas sem conexão com a internet.
+- Carregamento da listagem e dos detalhes de uma receita em menos de dois segundos.
+- Desenvolvimento para Android e iOS com uma única base de código.
+- Compressão das fotos antes do armazenamento no dispositivo.
 
-O documento não escolhe um framework ou um banco de dados. Esses requisitos não demonstram que um aplicativo já foi desenvolvido.
+Esses itens são requisitos descritos nos documentos. O repositório não contém o código de implementação dos aplicativos.
 
-## Estrutura dos modelos
+## Estrutura dos documentos
 
-Ambos incluem campos para:
+Os dois arquivos usam seções para descrição do cliente e do público-alvo, objetivos, envolvidos no projeto, viabilidade, estimativas, restrições, escopo, levantamento e especificação dos requisitos.
 
-1. Descrição do cliente e público-alvo.
-2. Objetivos, justificativas e stakeholders.
-3. Viabilidade, estimativas de prazo/custo e restrições.
-4. Escopo com roteiro 5W2H e itens fora do escopo.
-5. Técnicas de levantamento e necessidades dos usuários.
-6. Requisitos funcionais, requisitos não funcionais relacionados e requisitos sistêmicos.
-
-## Pendências visíveis para revisão
-
-- Alinhar a capa do documento `_2` ao conteúdo de receitas.
-- Completar cliente, objetivos, stakeholders, viabilidade e escopo; há campos vazios, instruções e exemplos de modelo.
-- Definir ou remover os espaços de RF-06 a RF-08, que permanecem com texto orientativo.
-- Revisar tabelas com “Escolher um item.” e restrições sem descrição.
-- Revisar a repetição da categorização nos itens RNFR-01.2 e RNFR-01.3 do documento de receitas.
-- Conferir a identificação da disciplina nos rodapés.
+Os modelos ainda contêm campos vazios, exemplos e instruções de preenchimento. Os espaços de RF-06 a RF-08 permanecem com texto orientativo. No documento `_2`, a capa mantém o título “Aplicativo Bancário”, embora os requisitos preenchidos tratem de receitas.
 
 ## Como consultar
 
-Abra cada `.docx` em um editor compatível com Word para preservar tabelas e formatação. Use o nome do documento e os identificadores RF/RNFR/RNFS para localizar os requisitos resumidos acima.
+Use os links da tabela de documentos para abrir ou baixar cada arquivo `.docx`. Para visualizar as tabelas e a formatação, abra o arquivo em um editor compatível com esse formato.
 
-Este README foi elaborado a partir do texto dos dois arquivos do próprio repositório. Os documentos foram preservados; exemplos e campos de modelo não foram tratados como decisões finais de projeto.
+Dentro dos documentos, os identificadores `RF`, `RNFR` e `RNFS` permitem localizar, respectivamente, os requisitos funcionais, os requisitos não funcionais relacionados e os requisitos não funcionais sistêmicos.
