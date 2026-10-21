@@ -2,6 +2,39 @@
 
 ![Documentação](https://img.shields.io/badge/Tipo-Especifica%C3%A7%C3%A3o%20de%20requisitos-7957D5) ![Formato](https://img.shields.io/badge/Formato-DOCX-2B579A)
 
+
+## 🎯 Missão documental · Da necessidade à especificação
+
+> **Objetivo:** interpretar requisitos, identificar lacunas e demonstrar rastreabilidade documental. Aqui, gamificação significa **marcos claros e validação por evidências**, sem transformar requisitos ainda não implementados em funcionalidades prontas.
+
+| Etapa | Missão | Evidência | XP didático |
+|---|---|---|--:|
+| 01 · Descoberta | Identificar público-alvo, escopo e objetivos | [Documento bancário](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema.docx) | 20 |
+| 02 · Requisitos | Localizar RF-01 a RF-05 no caso de receitas | [Documento de receitas](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema_2.docx) | 25 |
+| 03 · Qualidade | Distinguir RNFR de RNFS nos dois modelos | [Arquivos Word](#documentos) | 25 |
+| 04 · Revisão | Identificar campos pendentes e inconsistências de título | [Pontos de atenção](#estrutura-dos-documentos) | 30 |
+
+- [ ] Diferenciar requisitos funcionais e não funcionais usando exemplos dos documentos.
+- [ ] Elaborar uma matriz ligando requisitos ao problema que atendem.
+- [ ] Marcar os campos de modelo ainda sem preenchimento.
+- [ ] Confirmar que se trata de **especificação**, não de dois aplicativos executáveis.
+
+<details>
+<summary><strong>🏅 Critérios de conquista</strong></summary>
+
+| Marco | Evidência esperada |
+|---|---|
+| 🥉 Leitor de requisitos | Identificadores RF localizados corretamente |
+| 🥈 Analista de qualidade | RNFR e RNFS distinguidos com exemplos |
+| 🥇 Revisor técnico | Lacunas de preenchimento e inconsistências apontadas |
+| 💎 Arquiteto documental | Matriz de rastreabilidade produzida e revisada |
+
+**Pontuação simbólica:** a verificação é feita por você; não há emissão de certificado nem contagem automática.
+
+</details>
+
+---
+
 Repositório com dois documentos Word de levantamento e especificação de requisitos. Os arquivos apresentam o modelo de documentação e as descrições de requisitos preenchidas para dois temas: aplicativo bancário e cadastro de receitas.
 
 ## Documentos
