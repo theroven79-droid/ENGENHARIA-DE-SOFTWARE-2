@@ -15,7 +15,7 @@ O primeiro documento descreve os seguintes requisitos funcionais:
 
 | Identificador | Requisito | Descrição resumida |
 |---|---|---|
-| RF-01 | Cadastrar conta | Informar nome completo, CPF, telefone e e-mail, além de criar uma senha com pelo menos dez caracteres, incluindo letras maiúsculas, minúsculas, números e caractere especial. |
+| RF-01 | Cadastrar conta | Informar nome completo, CPF, telefone e e-mail, além de criar uma senha com pelo menos dez caracteres, incluindo letras maiúsculas e minúsculas, números e um caractere especial. |
 | RF-02 | Acessar a conta | Entrar com CPF e senha e aceitar os termos de acesso ao aplicativo. |
 | RF-03 | Adicionar chave Pix | Cadastrar uma chave para receber pagamentos por Pix. |
 | RF-04 | Escolher a forma de pagamento | Pagar por Pix, débito ou crédito em até cinco parcelas sem juros. |
@@ -32,7 +32,7 @@ As seções preenchidas do segundo documento descrevem:
 | Identificador | Requisito | Descrição resumida |
 |---|---|---|
 | RF-01 | Cadastrar receita | Informar título, ingredientes, modo de preparo e tempo estimado, com categorização da receita. |
-| RF-02 | Listar receitas | Exibir as receitas em lista ou grade, com miniatura, título e tempo de preparo; ordenar da mais recente para a mais antiga e permitir abrir os detalhes. |
+| RF-02 | Listar receitas | Exibir as receitas em lista ou grade, com miniatura, título e tempo de preparo; ordená-las da mais recente para a mais antiga e permitir a consulta aos detalhes. |
 | RF-03 | Buscar e filtrar | Buscar pelo título e filtrar por categoria, com atualização dos resultados durante a digitação. |
 | RF-04 | Editar dados | Abrir o formulário com os dados atuais, confirmar as alterações e permitir substituir ou remover a imagem. |
 | RF-05 | Excluir receita | Solicitar confirmação antes da exclusão e retornar à listagem atualizada. |
@@ -51,7 +51,7 @@ Esses itens são requisitos descritos nos documentos. O repositório não conté
 
 Os dois arquivos usam seções para descrição do cliente e do público-alvo, objetivos, envolvidos no projeto, viabilidade, estimativas, restrições, escopo, levantamento e especificação dos requisitos.
 
-Os modelos ainda contêm campos vazios, exemplos e instruções de preenchimento. Os espaços de RF-06 a RF-08 permanecem com texto orientativo. No documento `_2`, a capa mantém o título “Aplicativo Bancário”, embora os requisitos preenchidos tratem de receitas.
+Os modelos ainda contêm campos vazios, exemplos e instruções de preenchimento. Os campos de RF-06 a RF-08 permanecem com texto orientativo. No documento `_2`, a capa mantém o título “Aplicativo Bancário”, embora os requisitos preenchidos tratem de receitas.
 
 ## Como consultar
 
