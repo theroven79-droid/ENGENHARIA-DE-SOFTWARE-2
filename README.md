@@ -1,59 +1,34 @@
-# 📐 Engenharia de Software II — Documentação de requisitos
+# 📐 Relatório da pasta — Engenharia de Software II
 
-Este repositório reúne dois **documentos acadêmicos de levantamento e especificação de requisitos**: um para um aplicativo bancário e outro para um sistema de cadastro de receitas.
+## 📌 Apresentação
 
-Os arquivos descrevem comportamentos e qualidades desejadas. **Não há implementação dos aplicativos neste repositório.**
+Este repositório reúne **dois documentos acadêmicos de especificação de requisitos**, elaborados para estudar o planejamento de sistemas. Os arquivos apresentam propostas de funcionalidades, requisitos não funcionais e informações sobre escopo e objetivos. **Não há código-fonte de aplicações implementadas nesta pasta.**
 
-## 📂 Documentos
+## 📂 Documentos disponíveis
 
-| Arquivo | Tema | Conteúdo principal |
-|---|---|---|
-| [Modelo de documentação de sistema](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema.docx) | Aplicativo bancário | Cadastro, acesso, Pix, pagamentos e comprovantes. |
-| [Modelo de documentação de sistema — versão 2](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema_2.docx) | Cadastro de receitas | Criação, listagem, pesquisa, edição e exclusão de receitas. |
-
-Os arquivos estão em formato `.docx` e podem ser abertos no Microsoft Word ou em outro editor compatível.
-
-## 🏦 Aplicativo bancário
-
-| Identificador | Requisito funcional descrito |
+| Arquivo | Conteúdo |
 |---|---|
-| RF-01 | Cadastrar uma conta com dados pessoais e senha que atenda a critérios de complexidade. |
-| RF-02 | Acessar a conta com CPF e senha, mediante aceite dos termos previstos. |
-| RF-03 | Cadastrar uma chave Pix. |
-| RF-04 | Efetuar pagamentos por Pix, débito ou crédito, conforme as condições especificadas. |
-| RF-05 | Compartilhar comprovantes de pagamento. |
+| [`01-Modelo de Documentação de Sistema.docx`](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema.docx) | Modelo de requisitos para um aplicativo bancário. |
+| [`01-Modelo de Documentação de Sistema_2.docx`](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema_2.docx) | Modelo preenchido com requisitos para um sistema de cadastro de receitas. |
 
-O documento também apresenta requisitos não funcionais relacionados à segurança, à criptografia, à LGPD e à conexão com a internet.
+## 🧠 Síntese dos materiais
 
-## 🍽️ Cadastro de receitas
+O **documento bancário** descreve funções previstas para cadastro e acesso à conta, registro de chave Pix, realização de pagamentos e compartilhamento de comprovantes. Também aborda requisitos de segurança e proteção de dados.
 
-| Identificador | Requisito funcional descrito |
+O **documento de receitas** especifica operações de cadastro, listagem, pesquisa, edição e exclusão de receitas, além de características de interface, armazenamento e desempenho.
+
+| Categoria | Significado no contexto dos documentos |
 |---|---|
-| RF-01 | Cadastrar uma receita com título, ingredientes, modo de preparo, tempo e categoria. |
-| RF-02 | Exibir as receitas e permitir a consulta aos detalhes. |
-| RF-03 | Pesquisar por título e filtrar por categoria. |
-| RF-04 | Alterar informações de uma receita já cadastrada. |
-| RF-05 | Excluir uma receita após confirmação. |
+| `RF` | Requisito funcional: comportamento esperado do sistema. |
+| `RNFR` | Requisito não funcional associado a uma funcionalidade. |
+| `RNFS` | Requisito não funcional de abrangência sistêmica. |
 
-Entre os requisitos não funcionais estão interface de alto contraste, armazenamento local, desempenho, suporte a Android e iOS e compressão de imagens. Esses pontos fazem parte da **especificação**, não representam funcionalidades implementadas.
+## 🔎 Estado dos documentos
 
-## 🧩 Como interpretar os requisitos
+Os arquivos possuem campos orientativos ainda não preenchidos. A capa do segundo documento menciona **“Aplicativo Bancário”**, embora seu conteúdo trate do cadastro de receitas. Essa divergência pertence ao documento original e não foi alterada aqui.
 
-| Sigla | Significado |
-|---|---|
-| `RF` | Requisito funcional: o que o sistema deve fazer. |
-| `RNFR` | Requisito não funcional relacionado: qualidade ou restrição associada a uma função. |
-| `RNFS` | Requisito não funcional sistêmico: condição aplicável ao sistema de modo mais amplo. |
-
-Os dois modelos também incluem seções de objetivos, público-alvo, escopo, envolvidos, estimativas e viabilidade.
-
-## ⚠️ Observações sobre os documentos
-
-- Alguns campos continuam com orientações de preenchimento, inclusive as seções de RF-06 a RF-08.
-- No segundo arquivo, a capa ainda apresenta a identificação “Aplicativo Bancário”, embora os requisitos preenchidos se refiram ao cadastro de receitas.
-- Os requisitos registram comportamentos **propostos**. A existência dos documentos não comprova desenvolvimento, implantação ou testes dos aplicativos.
+Os requisitos apresentados são **propostas de sistema**, e não funcionalidades comprovadamente desenvolvidas ou testadas. A pasta registra o trabalho de análise e documentação, não uma aplicação executável.
 
 ## 📚 Referências
 
-- [ISO/IEC/IEEE 29148 — Engenharia de requisitos](https://www.iso.org/standard/72089.html)
-- [GitHub — Documentação de Markdown](https://docs.github.com/pt/get-started/writing-on-github)
+[ISO/IEC/IEEE 29148 — Engenharia de requisitos](https://www.iso.org/standard/72089.html) · [Documentação Markdown do GitHub](https://docs.github.com/pt/get-started/writing-on-github)
