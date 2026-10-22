@@ -1,34 +1,32 @@
-# 📐 Relatório da pasta — Engenharia de Software II
+# 📐 Engenharia de Software II
 
-## 📌 Apresentação
-
-Este repositório reúne **dois documentos acadêmicos de especificação de requisitos**, elaborados para estudar o planejamento de sistemas. Os arquivos apresentam propostas de funcionalidades, requisitos não funcionais e informações sobre escopo e objetivos. **Não há código-fonte de aplicações implementadas nesta pasta.**
+Este repositório reúne dois documentos acadêmicos dedicados à **análise e especificação de requisitos de sistemas**. Os materiais mostram como organizar as necessidades de uma aplicação antes de partir para a implementação, descrevendo funcionalidades, objetivos e características esperadas.
 
 ## 📂 Documentos disponíveis
 
-| Arquivo | Conteúdo |
+| Documento | Assunto |
 |---|---|
-| [`01-Modelo de Documentação de Sistema.docx`](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema.docx) | Modelo de requisitos para um aplicativo bancário. |
-| [`01-Modelo de Documentação de Sistema_2.docx`](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema_2.docx) | Modelo preenchido com requisitos para um sistema de cadastro de receitas. |
+| [01 — Modelo de Documentação de Sistema](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema.docx) | Especificação de um aplicativo bancário, com operações de conta, Pix, pagamentos e comprovantes. |
+| [02 — Modelo de Documentação de Sistema](01-Modelo%20de%20Documenta%C3%A7%C3%A3o%20de%20Sistema_2.docx) | Proposta de um sistema para cadastrar, consultar, editar e excluir receitas. |
 
-## 🧠 Síntese dos materiais
+## 📝 O que os materiais abordam
 
-O **documento bancário** descreve funções previstas para cadastro e acesso à conta, registro de chave Pix, realização de pagamentos e compartilhamento de comprovantes. Também aborda requisitos de segurança e proteção de dados.
+Os documentos exploram a definição do **escopo de um sistema** e a descrição dos recursos esperados pelo usuário. Também apresentam requisitos relacionados à experiência de uso, ao armazenamento de dados, à segurança e ao desempenho, conforme o contexto de cada proposta.
 
-O **documento de receitas** especifica operações de cadastro, listagem, pesquisa, edição e exclusão de receitas, além de características de interface, armazenamento e desempenho.
+A organização utiliza identificadores para diferenciar tipos de requisito:
 
-| Categoria | Significado no contexto dos documentos |
+| Identificação | Significado |
 |---|---|
-| `RF` | Requisito funcional: comportamento esperado do sistema. |
-| `RNFR` | Requisito não funcional associado a uma funcionalidade. |
-| `RNFS` | Requisito não funcional de abrangência sistêmica. |
+| `RF` | Requisito funcional: o que o sistema deve fazer. |
+| `RNFR` | Requisito não funcional relacionado a uma funcionalidade. |
+| `RNFS` | Requisito não funcional aplicável ao sistema como um todo. |
 
-## 🔎 Estado dos documentos
+## 🎯 Finalidade dos estudos
 
-Os arquivos possuem campos orientativos ainda não preenchidos. A capa do segundo documento menciona **“Aplicativo Bancário”**, embora seu conteúdo trate do cadastro de receitas. Essa divergência pertence ao documento original e não foi alterada aqui.
+O foco é praticar a passagem de uma ideia para uma **documentação de requisitos**, tornando explícito o que se espera do software e criando uma base para as próximas etapas do desenvolvimento.
 
-Os requisitos apresentados são **propostas de sistema**, e não funcionalidades comprovadamente desenvolvidas ou testadas. A pasta registra o trabalho de análise e documentação, não uma aplicação executável.
+Os arquivos estão em formato **Word (`.docx`)** e representam propostas documentadas, não aplicações implementadas neste repositório.
 
-## 📚 Referências
+## 📚 Referência
 
-[ISO/IEC/IEEE 29148 — Engenharia de requisitos](https://www.iso.org/standard/72089.html) · [Documentação Markdown do GitHub](https://docs.github.com/pt/get-started/writing-on-github)
+[ISO/IEC/IEEE 29148 — Engenharia de requisitos](https://www.iso.org/standard/72089.html)
